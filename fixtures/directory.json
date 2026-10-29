@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "upn": "alex@example.test",
+      "enabled": true
+    },
+    {
+      "id": "u2",
+      "upn": "sam@example.test",
+      "enabled": true
+    },
+    {
+      "id": "u3",
+      "upn": "lee@example.test",
+      "enabled": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "name": "Research Tools",
+      "members": [
+        "u1",
+        "u2"
+      ]
+    },
+    {
+      "id": "g2",
+      "name": "Engineering Announcements",
+      "members": [
+        "u3"
+      ]
+    }
+  ]
+}

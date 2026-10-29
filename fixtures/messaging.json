@@ -1,0 +1,29 @@
+{
+  "mailboxes": [
+    {
+      "directory_id": "u1",
+      "address": "alex@example.test"
+    },
+    {
+      "directory_id": "u2",
+      "address": "samantha@example.test"
+    },
+    {
+      "directory_id": "removed-user",
+      "address": "old@example.test"
+    }
+  ],
+  "groups": [
+    {
+      "directory_id": "g1",
+      "members": [
+        "u1",
+        "u3"
+      ]
+    },
+    {
+      "directory_id": "g3",
+      "members": []
+    }
+  ]
+}
